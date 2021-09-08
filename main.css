@@ -1,0 +1,183 @@
+body {
+  /* display: flex; */
+  font-family: monospace;
+  margin: 50px 20px 100px 100px;
+}
+
+.column1 {
+  float: left;
+  width: 20%;
+}
+
+.column2 {
+  float: left;
+  width: 80%;
+}
+
+.row1 {
+  position: absolute;
+  top: 180px;
+}
+
+.row2 {
+  position: absolute;
+  top: 370px;
+  color: white;
+  background-color: black;
+}
+
+.row3 {
+  position: absolute;
+  top: 450px;
+}
+
+.row4 {
+  position: absolute;
+  top: 180px;
+}
+
+.row5 {
+  position: absolute;
+  top: 200px;
+}
+
+.row6 {
+  position: absolute;
+  top: 1050px;
+}
+
+.new-skills {
+  display: flex;
+  justify-content: center;
+  }
+  
+#data-analysis, #data-visualization, #web {
+   width: 25%;
+   margin: 1px 60px 1px 60px;
+}
+
+#data-analysis:hover { 
+   background-color: rgb(51, 255, 250);
+} 
+
+#data-visualization:hover { 
+   background-color: rgb(255, 231, 18);
+}
+
+#web:hover { 
+   background-color: rgb(231, 18, 255);
+}
+
+/* #web {
+  margin: 0 auto;
+} */
+
+.instruments {
+  font-weight: bold;
+}
+
+.comment1 {
+
+  margin: 21px 0px 0px 0px;
+  font-weight: bold;
+}
+
+.comment2 {
+  margin: 20px 0px 0px 0px;
+  font-weight: bold;
+} 
+
+@keyframes blink {
+0% {color: rgb(51, 255, 250);}
+50% {color: rgb(255, 231, 18);}
+100% {color: rgb(231, 18, 255);}
+}
+
+#blinking {
+  animation: blink 1s linear infinite;
+}
+
+.basic-skills {
+  font-size: 1.35em;
+  display: inline-block;
+  display: flex;
+  justify-content: left;
+  margin: 13px 0px 0px 58px;
+}
+
+.experience1, .experience2, .experience3 {
+  display: flex;
+  justify-content: center;
+}
+
+#evaluator, #coordinator, #expansion-head, #intern, #board-member, #project-manager, #universal-manager, #teacher {
+ width: 30%;
+ margin: 1px 60px 1px 60px;
+}
+
+#details {
+  font-size: 0.8em
+}
+
+#arrow1 {
+  font-size: 3em;
+  position: absolute;
+  right: 690px;
+  color: rgb(51, 255, 250);
+}
+
+#arrow2 {
+  font-size: 3em;
+  position: absolute;
+  right: 350px;
+  color: rgb(51, 255, 250);
+}
+
+#arrow3 {
+  font-size: 3em;
+  position: absolute;
+  right: 180px;
+  top: 170px;
+  writing-mode: vertical-rl; 
+  transform: rotate(180deg);
+  color: rgb(231, 18, 255);;
+}
+
+#arrow4 {
+  font-size: 3em;
+  position: absolute;
+  right: 350px;
+  top: 20px;
+  color: rgb(255, 231, 18);
+  transform: rotate(180deg);
+}
+
+#arrow5 {
+  font-size: 3em;
+  position: absolute;
+  right: 690px;
+  top: 20px;
+  color: rgb(255, 231, 18);
+  transform: rotate(180deg);
+}
+
+#arrow6 {
+  font-size: 3em;
+  position: absolute;
+  right: 900px;
+  top: -60px;
+  color: rgb(231, 18, 255);
+  transform: rotate(-60deg);
+}
+
+#arrow7 {
+  font-size: 3em;
+  position: absolute;
+  right: 530px;
+  top: -190px;
+  color: rgb(51, 255, 250);
+}
+
+.education {
+  margin: 25px 30px 10px 0px;
+}
